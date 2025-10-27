@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">John Doe</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Hire Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="about" class="hero">
+    <img src="https://source.unsplash.com/200x200/?portrait,developer" alt="Profile Photo" class="profile-img" />
+    <h2>Hi, I'm John Doe</h2>
+    <p>I'm a passionate web developer who loves creating clean, responsive, and user-friendly websites.</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="https://source.unsplash.com/400x250/?restaurant,food" alt="Restaurant Website" />
+        <h3>Restaurant Website</h3>
+        <p>A modern restaurant landing page.</p>
+        <a href="#" class="link">Live Demo</a> | <a href="#" class="link">GitHub</a>
+      </div>
+
+      <div class="project-card">
+        <img src="https://source.unsplash.com/400x250/?office,business" alt="Business Homepage" />
+        <h3>Small Business Homepage</h3>
+        <p>A homepage for a small business client.</p>
+        <a href="#" class="link">Live Demo</a> | <a href="#" class="link">GitHub</a>
+      </div>
+
+      <div class="project-card">
+        <img src="https://source.unsplash.com/400x250/?blog,workspace" alt="Portfolio & Blog" />
+        <h3>Portfolio & Blog</h3>
+        <p>A portfolio and blog layout.</p>
+        <a href="#" class="link">Live Demo</a> | <a href="#" class="link">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Hire Me</h2>
+    <p>Interested in working together? Send me a message below.</p>
+    <form id="contactForm" action="https://formspree.io/f/your_form_id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 John Doe. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
